@@ -1,0 +1,12 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:voikin/mm-api.git
+	branch = dev
+[submodule "users"]
+	path = users
+	url = git@github.com:voikin/mm-user.git
+	branch = dev
+[submodule "generator"]
+	path = generator
+	url = git@github.com:voikin/mm-generation.git
+	branch = dev
