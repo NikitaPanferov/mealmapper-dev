@@ -10,3 +10,7 @@
 	path = generator
 	url = git@github.com:voikin/mm-generation.git
 	branch = dev
+[submodule "front"]
+	path = front
+	url = git@github.com:voikin/mm-client.git
+	branch = dev
