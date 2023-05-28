@@ -6,20 +6,14 @@ services:
     ports:
       - "8000:8000"
 
-  users:
-    build: ./users/
-    restart: always
-    ports:
-      - "3000:3000"
-
   api:
     build: ./api/
     restart: always
     depends_on:
       - generator
-      - users
     ports:
       - "8080:8080"
+
   frontend:
     build: ./front
     ports:
